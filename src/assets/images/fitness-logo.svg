@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Fitness Logo SVG -->
+  <style>
+    .logo-primary { fill: #5046e5; }
+    .logo-secondary { fill: #ff6b6b; }
+    .logo-accent { fill: #38b2ac; }
+  </style>
+  
+  <!-- Dumbbell Icon -->
+  <g transform="translate(25, 80)">
+    <!-- Left Weight -->
+    <rect class="logo-primary" x="0" y="10" width="20" height="40" rx="5" />
+    <!-- Left Handle Connection -->
+    <rect class="logo-accent" x="20" y="25" width="10" height="10" />
+    <!-- Middle Handle -->
+    <rect class="logo-secondary" x="30" y="27" width="90" height="6" rx="3" />
+    <!-- Right Handle Connection -->
+    <rect class="logo-accent" x="120" y="25" width="10" height="10" />
+    <!-- Right Weight -->
+    <rect class="logo-primary" x="130" y="10" width="20" height="40" rx="5" />
+  </g>
+  
+  <!-- Circular Background -->
+  <circle cx="100" cy="80" r="60" fill="none" stroke="#5046e5" stroke-width="4" stroke-dasharray="10,5" />
+  
+  <!-- Pulse Line -->
+  <path class="logo-secondary" d="M30,120 L60,120 L70,100 L90,140 L110,80 L130,120 L170,120" fill="none" stroke-width="4" stroke="#ff6b6b" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

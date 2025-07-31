@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Realistic Muscular Man SVG -->
+  <style>
+    .muscular-figure { fill: #8e44ad; }
+    .muscular-outfit { fill: #34495e; }
+    .muscular-skin { fill: #e59866; }
+    .muscular-hair { fill: #2c3e50; }
+    .weights { fill: #333; }
+    .weight-handle { fill: #666; }
+  </style>
+  
+  <!-- Head -->
+  <circle class="muscular-skin" cx="400" cy="150" r="50" />
+  <path class="muscular-hair" d="M370,130 C370,110 380,100 400,100 C420,100 430,110 430,130 L430,140 C430,150 420,160 400,160 C380,160 370,150 370,140 Z" />
+  
+  <!-- Muscular Body -->
+  <path class="muscular-outfit" d="M350,200 L350,220 L320,250 L320,350 L340,400 L360,450 L380,500 L400,550 L420,500 L440,450 L460,400 L480,350 L480,250 L450,220 L450,200 Z" />
+  
+  <!-- Defined Muscles - Arms -->
+  <path class="muscular-skin" d="M320,250 L280,300 L260,380 L280,400 L320,350 M480,250 L520,300 L540,380 L520,400 L480,350" />
+  
+  <!-- Defined Muscles - Legs -->
+  <path class="muscular-skin" d="M380,500 L360,600 L380,650 L400,670 L420,650 L440,600 L420,500" />
+  
+  <!-- Muscle Definition Lines -->
+  <path d="M380,250 L380,450 M420,250 L420,450 M350,300 L450,300 M350,350 L450,350 M350,400 L450,400" stroke="#34495e" stroke-width="2" fill="none" stroke-opacity="0.5" />
+  
+  <!-- Facial Features -->
+  <circle cx="385" cy="140" r="5" fill="#000" />
+  <circle cx="415" cy="140" r="5" fill="#000" />
+  <path d="M390,160 C395,165 405,165 410,160" stroke="#000" stroke-width="2" fill="none" />
+  <path class="muscular-hair" d="M385,180 L415,180 L410,190 L390,190 Z" />
+  
+  <!-- Dumbbell -->
+  <g transform="translate(200, 350)">
+    <!-- Left Weight -->
+    <rect class="weights" x="0" y="0" width="40" height="80" rx="5" />
+    <!-- Handle -->
+    <rect class="weight-handle" x="40" y="30" width="120" height="20" />
+    <!-- Right Weight -->
+    <rect class="weights" x="160" y="0" width="40" height="80" rx="5" />
+  </g>
+  
+  <!-- Energy Aura -->
+  <circle cx="400" cy="350" r="200" fill="#3498db" opacity="0.05" />
+</svg>

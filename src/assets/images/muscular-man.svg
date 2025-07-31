@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Muscular Man SVG -->
+  <style>
+    .muscular-figure { fill: #5046e5; }
+    .weights { fill: #333; }
+    .weight-handle { fill: #666; }
+  </style>
+  
+  <!-- Muscular Man Figure -->
+  <path class="muscular-figure" d="M400 200c22 0 40-18 40-40s-18-40-40-40-40 18-40 40 18 40 40 40zm-80 40c0-11 9-20 20-20h120c11 0 20 9 20 20v80h-40v240h-80V320h-40v-80zm20 0v60h20v260h40V260h40v60h20v-60c0-5.5-4.5-10-10-10H350c-5.5 0-10 4.5-10 10z"/>
+  
+  <!-- Broad Shoulders and Muscular Arms -->
+  <path class="muscular-figure" d="M300 280c-16.5 0-30 13.5-30 30s13.5 30 30 30 30-13.5 30-30-13.5-30-30-30zm200 0c-16.5 0-30 13.5-30 30s13.5 30 30 30 30-13.5 30-30-13.5-30-30-30zm-200 30c0 16.5 13.5 30 30 30s30-13.5 30-30-13.5-30-30-30-30 13.5-30 30zm140 0c0 16.5 13.5 30 30 30s30-13.5 30-30-13.5-30-30-30-30 13.5-30 30z"/>
+  
+  <!-- Dumbbell Weights -->
+  <g transform="translate(200, 350)">
+    <!-- Left Weight -->
+    <rect class="weights" x="0" y="0" width="40" height="80" rx="5" />
+    <!-- Handle -->
+    <rect class="weight-handle" x="40" y="30" width="80" height="20" />
+    <!-- Right Weight -->
+    <rect class="weights" x="120" y="0" width="40" height="80" rx="5" />
+  </g>
+  
+  <g transform="translate(440, 350)">
+    <!-- Left Weight -->
+    <rect class="weights" x="0" y="0" width="40" height="80" rx="5" />
+    <!-- Handle -->
+    <rect class="weight-handle" x="40" y="30" width="80" height="20" />
+    <!-- Right Weight -->
+    <rect class="weights" x="120" y="0" width="40" height="80" rx="5" />
+  </g>
+</svg>

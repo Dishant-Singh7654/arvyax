@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- ArvyaX Logo SVG -->
+  <style>
+    .logo-primary { fill: #8e44ad; }
+    .logo-secondary { fill: #3498db; }
+    .logo-accent { fill: #2ecc71; }
+  </style>
+  
+  <!-- Yoga Pose Icon -->
+  <g transform="translate(50, 50)">
+    <!-- Circular Background -->
+    <circle cx="50" cy="50" r="50" fill="none" stroke="#8e44ad" stroke-width="4" stroke-dasharray="10,5" />
+    
+    <!-- Stylized A for ArvyaX -->
+    <path class="logo-primary" d="M30,90 L50,30 L70,90 M35,70 L65,70" stroke-width="8" stroke="#8e44ad" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- X Element -->
+    <path class="logo-secondary" d="M80,30 L100,50 L80,70 M100,30 L80,50 L100,70" stroke-width="6" stroke="#3498db" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  
+  <!-- Energy Wave -->
+  <path class="logo-accent" d="M30,150 L50,140 L70,150 L90,130 L110,150 L130,140 L150,150 L170,140" fill="none" stroke-width="4" stroke="#2ecc71" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

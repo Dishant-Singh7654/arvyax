@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Realistic Yoga Woman SVG -->
+  <style>
+    .yoga-figure { fill: #8e44ad; }
+    .yoga-mat { fill: #3498db; }
+    .yoga-outfit { fill: #2ecc71; }
+    .yoga-skin { fill: #f5d0a9; }
+    .yoga-hair { fill: #4a235a; }
+  </style>
+  
+  <!-- Yoga Mat -->
+  <rect class="yoga-mat" x="150" y="600" width="500" height="30" rx="10" />
+  
+  <!-- Yoga Woman Figure - More Detailed and Realistic -->
+  <!-- Head -->
+  <circle class="yoga-skin" cx="400" cy="200" r="40" />
+  <path class="yoga-hair" d="M360,200 C360,170 380,150 400,150 C420,150 440,170 440,200 C440,210 435,220 430,230 L430,250 C430,260 420,270 400,270 C380,270 370,260 370,250 L370,230 C365,220 360,210 360,200 Z" />
+  
+  <!-- Body in Tree Pose -->
+  <path class="yoga-outfit" d="M380,270 L380,350 L370,450 L390,500 L410,500 L430,450 L420,350 L420,270 Z" />
+  <path class="yoga-skin" d="M370,350 L350,400 L330,500 L350,550 L370,450 M430,350 L450,400 L470,500 L450,550 L430,450" />
+  <path class="yoga-skin" d="M390,500 L380,550 L400,600 L420,550 L410,500" />
+  
+  <!-- Arms in Namaste Position -->
+  <path class="yoga-skin" d="M380,300 L340,320 L330,350 L350,370 L380,350 M420,300 L460,320 L470,350 L450,370 L420,350" />
+  <path class="yoga-outfit" d="M380,300 L340,320 L330,350 L350,370 L380,350 M420,300 L460,320 L470,350 L450,370 L420,350" stroke="#2ecc71" stroke-width="2" fill="none" />
+  
+  <!-- Detailed Facial Features -->
+  <circle cx="385" cy="190" r="5" fill="#000" />
+  <circle cx="415" cy="190" r="5" fill="#000" />
+  <path d="M390,210 C395,215 405,215 410,210" stroke="#000" stroke-width="2" fill="none" />
+  
+  <!-- Meditation Glow -->
+  <circle cx="400" cy="300" r="100" fill="#8e44ad" opacity="0.1" />
+</svg>

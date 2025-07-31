@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- ArvyaX Pattern SVG -->
+  <style>
+    .pattern-primary { fill: #8e44ad; opacity: 0.1; }
+    .pattern-secondary { fill: #3498db; opacity: 0.1; }
+    .pattern-accent { fill: #2ecc71; opacity: 0.1; }
+  </style>
+  
+  <!-- Yoga Pose Patterns -->
+  <g transform="translate(10, 10) scale(0.15)">
+    <!-- Yoga Pose Silhouette -->
+    <path class="pattern-primary" d="M50,0 C60,0 70,10 70,20 C70,30 60,40 50,40 C40,40 30,30 30,20 C30,10 40,0 50,0 Z M30,50 L70,50 L70,100 L60,150 L40,150 L30,100 Z" />
+    <!-- Meditation Lines -->
+    <path class="pattern-secondary" d="M0,160 C20,140 80,140 100,160" stroke-width="5" stroke="#3498db" fill="none" stroke-opacity="0.2" />
+    <path class="pattern-secondary" d="M0,170 C20,150 80,150 100,170" stroke-width="5" stroke="#3498db" fill="none" stroke-opacity="0.2" />
+    <path class="pattern-secondary" d="M0,180 C20,160 80,160 100,180" stroke-width="5" stroke="#3498db" fill="none" stroke-opacity="0.2" />
+  </g>
+  
+  <g transform="translate(60, 30) scale(0.15)">
+    <!-- Fitness Equipment Silhouette -->
+    <rect class="pattern-accent" x="20" y="20" width="60" height="10" rx="5" />
+    <circle class="pattern-accent" cx="20" cy="25" r="20" />
+    <circle class="pattern-accent" cx="80" cy="25" r="20" />
+  </g>
+  
+  <g transform="translate(20, 70) scale(0.15)">
+    <!-- Mountain Pose Silhouette -->
+    <path class="pattern-secondary" d="M50,0 C60,0 70,10 70,20 C70,30 60,40 50,40 C40,40 30,30 30,20 C30,10 40,0 50,0 Z M40,40 L40,120 L30,180 L40,190 L60,190 L70,180 L60,120 L60,40 Z" />
+  </g>
+  
+  <g transform="translate(70, 70) scale(0.15)">
+    <!-- Energy Wave -->
+    <path class="pattern-primary" d="M0,50 C10,30 20,70 30,50 C40,30 50,70 60,50 C70,30 80,70 90,50 C100,30 110,70 120,50" stroke-width="5" stroke="#8e44ad" fill="none" stroke-opacity="0.2" />
+  </g>
+</svg>
