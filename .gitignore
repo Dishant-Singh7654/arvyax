@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Large files
+mongodb-windows-x86_64-7.0.5-signed.msi
