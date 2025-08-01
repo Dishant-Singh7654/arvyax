@@ -35,3 +35,31 @@ ArvyaX is a secure full-stack web platform for creating, drafting, and exploring
 - Create, edit, and auto-save custom sessions
 - Draft and publish workflows
 - Responsive UI and protected routes
+
+🧪 Getting Started
+
+1. Clone the Repository
+git clone https://github.com/your-username/arvyax.git
+cd arvyax
+
+
+3. Set Up Environment Variables
+Create a .env file in both frontend/ and backend/ directories. Use the provided .env.example files.
+
+
+4. Install Dependencies
+Backend:
+cd backend
+npm install
+
+Frontend:
+cd ../frontend
+npm install
+
+
+5. Start Development Server
+Backend:
+npm start
+
+Frontend:
+npm run dev
