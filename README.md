@@ -49,17 +49,17 @@ git clone https://github.com/your-username/arvyax.git.
 
 4. Install Dependencies
 - Backend:
- cd backend
+ cd backend , 
  npm install
 
 - Frontend:
-  cd ../frontend
+  cd ../frontend , 
  npm install
 
 
 5. Start Development Server
-Backend:
+- Backend:
 npm start
 
-Frontend:
+- Frontend:
 npm run dev
