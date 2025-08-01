@@ -39,7 +39,8 @@ ArvyaX is a secure full-stack web platform for creating, drafting, and exploring
 🧪 Getting Started
 
 1. Clone the Repository
-git clone https://github.com/your-username/arvyax.git
+git clone https://github.com/your-username/arvyax.git.
+
 cd arvyax
 
 
