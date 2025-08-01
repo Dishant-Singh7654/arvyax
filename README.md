@@ -5,7 +5,6 @@ ArvyaX is a secure full-stack web platform for creating, drafting, and exploring
 ## 🚀 Live Demo
 
 🔗 [Click here to view the live site](https://arvyax-fronten.onrender.com/)  
-*(Replace with actual deployed URL)*
 
 ---
 
@@ -23,6 +22,7 @@ ArvyaX is a secure full-stack web platform for creating, drafting, and exploring
 
 /arvyax
 ├── /frontend # React client
+
 └── /backend # Express server
 
 ---
