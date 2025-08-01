@@ -21,6 +21,7 @@ ArvyaX is a secure full-stack web platform for creating, drafting, and exploring
 ## 📁 Project Structure
 
 /arvyax
+
 ├── /frontend # React client
 
 └── /backend # Express server
