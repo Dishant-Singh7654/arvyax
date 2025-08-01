@@ -44,17 +44,17 @@ git clone https://github.com/your-username/arvyax.git.
 
 
 3. Set Up Environment Variables
-Create a .env file in both frontend/ and backend/ directories. Use the provided .env.example files.
+- Create a .env file in both frontend/ and backend/ directories. Use the provided .env.example files.
 
 
 4. Install Dependencies
-Backend:
-cd backend
-npm install
+- Backend:
+-- cd backend
+-- npm install
 
-Frontend:
-cd ../frontend
-npm install
+- Frontend:
+-- cd ../frontend
+-- npm install
 
 
 5. Start Development Server
